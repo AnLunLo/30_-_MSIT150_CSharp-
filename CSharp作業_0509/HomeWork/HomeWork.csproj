@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79518409-7601-4D83-AE20-A741A36E8CB7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HomeWork</RootNamespace>
+    <AssemblyName>HomeWork</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HW10_ScreenProtect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW10_ScreenProtect.Designer.cs">
+      <DependentUpon>HW10_ScreenProtect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW11_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW11_Method.Designer.cs">
+      <DependentUpon>HW11_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW12_Note.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW12_Note.Designer.cs">
+      <DependentUpon>HW12_Note.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW13_Painting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW13_Painting.Designer.cs">
+      <DependentUpon>HW13_Painting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW14_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW14_Alarm.Designer.cs">
+      <DependentUpon>HW14_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW15_PicBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW15_PicBrowser.Designer.cs">
+      <DependentUpon>HW15_PicBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW7_OX_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW7_OX_Game.Designer.cs">
+      <DependentUpon>HW7_OX_Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW8_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW8_Guess.Designer.cs">
+      <DependentUpon>HW8_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW8_Guess_Popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW8_Guess_Popup.Designer.cs">
+      <DependentUpon>HW8_Guess_Popup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW9_StudentGradeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW9_StudentGradeList.Designer.cs">
+      <DependentUpon>HW9_StudentGradeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="HM6_Calulator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM6_Calulator.Designer.cs">
+      <DependentUpon>HM6_Calulator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW2_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW2_Loan.Designer.cs">
+      <DependentUpon>HW2_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW1_Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW1_Hello.Designer.cs">
+      <DependentUpon>HW1_Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW2_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW2_Report.Designer.cs">
+      <DependentUpon>HW2_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW4_Pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW4_Pos.Designer.cs">
+      <DependentUpon>HW4_Pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW5_Student_Struct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW5_Student_Struct.Designer.cs">
+      <DependentUpon>HW5_Student_Struct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPanel.Designer.cs">
+      <DependentUpon>MainPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HM6_Calulator.resx">
+      <DependentUpon>HM6_Calulator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW10_ScreenProtect.resx">
+      <DependentUpon>HW10_ScreenProtect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW11_Method.resx">
+      <DependentUpon>HW11_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW12_Note.resx">
+      <DependentUpon>HW12_Note.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW13_Painting.resx">
+      <DependentUpon>HW13_Painting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW14_Alarm.resx">
+      <DependentUpon>HW14_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW15_PicBrowser.resx">
+      <DependentUpon>HW15_PicBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW1_Hello.resx">
+      <DependentUpon>HW1_Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW2_Loan.resx">
+      <DependentUpon>HW2_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW2_Report.resx">
+      <DependentUpon>HW2_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW4_Pos.resx">
+      <DependentUpon>HW4_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW5_Student_Struct.resx">
+      <DependentUpon>HW5_Student_Struct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW7_OX_Game.resx">
+      <DependentUpon>HW7_OX_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW8_Guess.resx">
+      <DependentUpon>HW8_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW8_Guess_Popup.resx">
+      <DependentUpon>HW8_Guess_Popup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW9_StudentGradeList.resx">
+      <DependentUpon>HW9_StudentGradeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPanel.resx">
+      <DependentUpon>MainPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice_cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
